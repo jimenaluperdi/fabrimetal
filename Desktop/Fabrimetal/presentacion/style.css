@@ -1,0 +1,374 @@
+html {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;       
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-size: 20px;
+    margin: 2px;
+    padding: 2px;    
+    background: linear-gradient(-95deg, darkkhaki, dimgrey);
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    padding-left: 35px;
+    padding-top: 10px;
+}    
+
+.logoimg {
+    width: 100%;
+    height: auto; 
+    border-radius: 15px;   
+}
+
+.carousel-inner {
+    border-radius: 15px;
+}
+
+.image, .image2, .shadow {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+   
+} 
+
+.image2 {
+    width: 100%;
+    height: auto;      
+}
+
+.h1 {
+    font-weight: 600;
+}
+
+.logopie {
+    width: 600px;    
+}
+
+.logofooter {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#space {
+    padding-bottom: 30px;
+    background-color: white;
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.border-success {
+    height: 15%;
+}
+
+.col-4 {
+    width: 42%;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.col-2 {
+    padding-top: 15px;
+}
+
+.index {
+    padding-top: 30px;
+}
+
+.caja, .caja2 {
+    align-self: center; 
+}
+
+.copy {
+    text-align: right;
+    margin-right: 5px;
+}
+
+#metal {
+    display: none;
+    padding-bottom: 20%;
+}
+
+#plancha {
+    display: none;
+    padding-bottom: 20%;
+}
+
+/*padding top de todas las paginas*/
+.top {
+    padding-top: 4%;
+}
+
+.where {
+    padding-top: 10%;
+}
+
+.justify {
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-left: 115px;
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#contenedor {
+    text-align: center;
+    background: linear-gradient(-95deg, aqua, lightgreen);
+    padding: 18px;
+    border-radius: 10px;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+/*estilo de sub nav*/
+
+.fondo {
+    background-color: rgba(0, 123, 255, 0.46);
+    border-radius: 15px;
+}
+
+.right {
+    animation-name: fadeRight;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    visibility: visible;
+}
+
+.right2 {
+    animation-name: fadeRight;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    visibility: visible;
+}
+
+.right3 {
+    animation-name: fadeRight;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    visibility: visible;
+}
+
+.left {
+    animation-name: fadeLeft;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    visibility: visible;
+}
+
+.left2 {
+    animation-name: fadeLeft;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    visibility: visible;
+}
+
+.left3 {
+    animation-name: fadeLeft;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    visibility: visible;
+}
+
+@keyframes fadeRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(500%, 0, 0);
+        -webkit-transform: translate3d(500%, 0, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+        -webkit-transform: none;
+    }
+}
+
+
+@keyframes fadeLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-500%, 0, 0);
+        -webkit-transform: translate3d(-500%, 0, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+        -webkit-transform: none;
+    }
+}
+
+.object {
+    position: relative;
+    text-decoration-line: overline;
+}
+
+.object2 {
+    position: relative;    
+}
+
+.van2 {
+    top: 65%;
+}
+
+.van {
+    top: 45%;   
+}
+
+/*estilo tabla*/
+
+table {
+    width: 540px;
+    height: 380px;
+}
+
+/*estilo subfooter*/
+
+.subfooter {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    background-color: lightgray;
+    border-radius: 15px;  
+    height: auto; 
+}
+
+.lista ul li  {
+    list-style: none;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    padding-right: 27px;
+}
+
+/*slide trabajo*/
+
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria li {
+    margin: 5px;
+}
+
+.galeria img {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+/*Estilos del modal*/
+
+.modal, .modal1, .modal2, .modal3, .modal4, .modal5, .modal6  {
+    display: none;
+}
+
+.modal:target, .modal1:target, .modal2:target, .modal3:target, .modal4:target, .modal5:target, .modal6:target {
+    
+    display: block;
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal, .modal1, .modal2, .modal3 h3, .modal4 h3, .modal5 h3, .modal6 h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.imagen {
+    width: 100%;
+    height: 60%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.imagen a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.imagen img {
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    border: 4px solid #fff;
+    box-sizing: border-box;
+}
+
+.cerrar {
+    display: block;
+    background: #fff;
+    width: 35px;
+    height: 35px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+}
+
+.title, .botones {
+    padding-left: 20%;
+}
+
+#interes {
+    text-align: center;
+}
+
+.text {
+    color: black;   
+}
+
+.enlaces ul li {
+    list-style: none;
+}
